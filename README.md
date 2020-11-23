@@ -16,11 +16,20 @@ sudo modprobe v4l2loopback video_ncr=<Number> card_label="<label Name>"
 
 ```
 
-## Interactive keys for edits
+## Interactive keys 
+
 Space     : pausing the camera
+
+
 Escape    : Exit 
+
+
 's'       : Storing live video frames
+
+
 'd'       : Replaying saved frames
+
+
 'x'       : Adding lag
   
 Note: Use videowriter for storing large sized video replay. The current implementation is for live storing for a small period of time
