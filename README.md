@@ -13,8 +13,18 @@ apt-get install ffmpeg # useful for debugging
 
 #Creating virtual cam with custom camera label and device number
 sudo modprobe v4l2loopback video_ncr=<Number> card_label="<label Name>"
+
 ```
-## v4l2loopback usefull commands
+
+## Interactive keys for edits
+<space>   : pausing the camera
+<Escape>  : Exit 
+<s>       : Storing live video frames
+<d>       : Replaying saved frames
+<x>       : Adding lag
+  
+Note: Use videowriter for storing large sized video replay. The current implementation is for live storing for a small period of time
+## v4l2loopback useful commands
 
 
 ```
