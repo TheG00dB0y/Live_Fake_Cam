@@ -20,15 +20,11 @@ sudo modprobe v4l2loopback video_ncr=<Number> card_label="<label Name>"
 
 Space     : pausing the camera
 
-
 Escape    : Exit 
-
 
 's'       : Storing live video frames
 
-
 'd'       : Replaying saved frames
-
 
 'x'       : Adding lag
   
