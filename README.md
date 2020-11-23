@@ -1,7 +1,7 @@
 # Live_Fake_Cam
 A user interactive live cam manipulating based on Tkinter and pyfakecam API in linux. The user can currently store video frames, replay the saved frames, add lag to the video output , add stuck ,add black screen. The code can be further improved based on the requirements. 
 
-## installation
+## Installation
 
 ```
 # use git to install the latest version
@@ -17,11 +17,11 @@ sudo modprobe v4l2loopback video_ncr=<Number> card_label="<label Name>"
 ```
 
 ## Interactive keys for edits
-<space>   : pausing the camera
-<Escape>  : Exit 
-<s>       : Storing live video frames
-<d>       : Replaying saved frames
-<x>       : Adding lag
+Space     : pausing the camera
+Escape    : Exit 
+'s'       : Storing live video frames
+'d'       : Replaying saved frames
+'x'       : Adding lag
   
 Note: Use videowriter for storing large sized video replay. The current implementation is for live storing for a small period of time
 ## v4l2loopback useful commands
